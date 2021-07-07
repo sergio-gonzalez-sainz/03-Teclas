@@ -5,12 +5,9 @@ var teclas = {
     LEFT: 37,
     RIGHT:39
 };
-
     /*  KeyUp indica cuando se deja de presionar una tecla                          */
 document.addEventListener("keydown",dibujarTeclado);
-    /*  KeyUp indica cuando se deja de presionar una tecla                          */
-document.addEventListener("mouse.down",dibujarMause);
-console.log();
+
 var cuadrito = document.getElementById("area_de_dibujo");
 var papel = cuadrito.getContext("2d");
 var x = 100;
